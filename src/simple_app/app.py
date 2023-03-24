@@ -23,7 +23,7 @@ migrate = Migrate(app, db)
 
 @app.route("/")
 def index():
-    return "hello world eieiza55+"
+    return "hello world eieiza555+"
 
 
 app.add_url_rule("/todo", methods=["GET"], view_func=todo_api.list_todo)
